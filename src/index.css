@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Gugi", sans-serif;
 }
 
 body {
@@ -17,14 +18,13 @@ body {
 }
 
 .app {
-  border: 1px solid;
+  
 }
 
 .profile,.intro,.work,.contact {
   width: 100%;
   margin: auto;
   padding: 0.85em 0;
-  border: 1px solid;
 }
 
 .profile {
@@ -62,14 +62,14 @@ body {
   gap: 0.5em;
 
   .work_title {
-    border: 1px solid;
+    
   }
 
   .links {
     display: flex;
     flex-direction: column;
     gap: 1em;
-    border: 1px solid;
+    
   }
 }
 

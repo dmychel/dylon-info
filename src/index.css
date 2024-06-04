@@ -9,16 +9,15 @@ body {
   padding: 1em;
   max-width: 50rem;
   margin: auto;
-  background-color: #282a36;
-  color: #f8f8f2;
+  background-color: #020617;
+  color: #94a3b8;
   font-family: "Jersey 15", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 1.5rem;
 }
-
-.app {
-  
+a {
+  color: #0369a1;
 }
 
 .profile,.intro,.work,.contact {

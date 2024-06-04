@@ -2,3 +2,79 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  display: block;
+  padding: 1em;
+  max-width: 50rem;
+  margin: auto;
+  background-color: #282a36;
+  color: #f8f8f2;
+  font-family: "Jersey 15", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+}
+
+.app {
+  border: 1px solid;
+}
+
+.profile,.intro,.work,.contact {
+  width: 100%;
+  margin: auto;
+  padding: 0.85em 0;
+  border: 1px solid;
+}
+
+.profile {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .profile_pic {
+    width: 25%;
+    height: 25%;
+    border-radius: 100%;
+  }
+
+  .profile_pic img {
+    width: 100%;
+    height: auto;
+    border-radius: 100%;
+  }
+
+  .name {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.intro p {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.work {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+
+  .work_title {
+    border: 1px solid;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    border: 1px solid;
+  }
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 export default function Work() {
   return (
     <div className="work">
@@ -5,9 +6,9 @@ export default function Work() {
         <h3>Links to my work</h3>
       </div>
       <div className="links">
-        <a href="">Photography</a>
-        <a href="">Web Developer Portfolio</a>
-        <a href="">Crucial Clothing</a>
+        <Link to="/project-info">Crucial Clothing</Link>
+        <Link to="/project-info">Photography</Link>
+        <Link to="/project-info">Web Developer Portfolio</Link>
       </div>
     </div>
   );

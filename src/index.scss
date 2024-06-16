@@ -4,99 +4,90 @@
   font-family: "Gugi", sans-serif;
 }
 
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+header {
+  padding: 8px;
+  font-size: 0.75rem;
+  position: fixed;
+}
+
+.main_element {
+  padding: 8px;
   height: 100vh;
-  max-width: 50rem;
-  margin: auto;
-
-  color: #94a3b8;
-  font-family: "Jersey 15", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 1.25rem;
-
-  background-color: #00000098;
-  background-image: url("/assets/imgs/wallhaven-l87rxp.jpg");
-  background-position: center;
-  backdrop-filter: blur(1px);
-  background-blend-mode: overlay;
-}
-
-a {
-  color: rgb(86, 20, 230);
-}
-
-.app {
-  margin: auto;
-  max-width: 100%;
-  background-color: rgba(1, 44, 44, 0.767);
-  padding: 24px;
-  border-radius: 15px;
-  box-shadow: 1px 13px 27px -8px rgba(139, 3, 30, 0.705);
-  -webkit-box-shadow: 1px 13px 27px -8px rgba(139, 3, 30, 0.705);
-  -moz-box-shadow: 1px 13px 27px -8px rgba(85, 6, 22, 0.705);
-}
-
-.profile,
-.intro,
-.work,
-.contact {
-  width: 100%;
-  margin: auto;
-  padding: 0.65em 0;
 }
 
 .profile {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-
-  .profile_pic {
-    width: 25%;
-    height: 25%;
-    border-radius: 100%;
-  }
-
-  .profile_pic img {
-    width: 100%;
-    height: auto;
-    border-radius: 100%;
-  }
-
-  .name {
-    width: 100%;
-    text-align: center;
-  }
+  align-items: center;
 }
 
-.intro p {
-  text-align: center;
-  font-size: 1rem;
-}
+.crucial_clothing {
+  height: 100%;
+  padding: 2rem;
+  color: aliceblue;
 
-.work {
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5em;
-
-  .links {
+  .title {
     display: flex;
     flex-direction: column;
-    gap: 1em;
-    margin: 0 1em;
-  }
-}
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+    width: 100%;
+    height: auto;
+    margin-bottom: 5%;
 
-.contact {
-  display: flex;
-  flex-direction: column;
-  gap: 1em;
-
-  p {
-    margin: 0 1em;
+    .hero {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 35%;
+        height: auto;
+      }
+    }
   }
+
+  .project_info {
+    margin: auto;
+    max-width: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2em;
+
+    ul {
+      display: flex;
+      gap: 2em;
+      li {
+        display: flex;
+        align-items: center;
+        gap: 1em;
+        list-style: none;
+
+        img {
+          max-width: 30px;
+        }
+      }
+    }
+  }
+  background: hsla(0, 0%, 29%, 1);
+  background: radial-gradient(
+    circle,
+    hsla(0, 0%, 29%, 1) 0%,
+    hsla(200, 8%, 8%, 1) 100%
+  );
+  background: -moz-radial-gradient(
+    circle,
+    hsla(0, 0%, 29%, 1) 0%,
+    hsla(200, 8%, 8%, 1) 100%
+  );
+  background: -webkit-radial-gradient(
+    circle,
+    hsla(0, 0%, 29%, 1) 0%,
+    hsla(200, 8%, 8%, 1) 100%
+  );
 }

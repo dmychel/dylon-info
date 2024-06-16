@@ -1,5 +1,3 @@
-import Grid from "./Grid";
-
 export default function Profile() {
   return (
     <div className="profile main_element">

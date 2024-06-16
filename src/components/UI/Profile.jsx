@@ -1,13 +1,12 @@
+import Grid from "./Grid";
+
 export default function Profile() {
   return (
-    <div className="profile">
-      <div className="profile_pic">
-        <img src="https://placehold.co/400" alt="" />
-      </div>
-      <div className="name">
-        <h1>Dylon Crowley-Perez</h1>
-        <h3>Creator | Learner</h3>
-      </div>
+    <div className="profile main_element">
+      <h2>
+        The things I&apos;ve been able to create with a little ambition and
+        curiosity
+      </h2>
     </div>
   );
 }

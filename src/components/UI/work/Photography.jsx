@@ -2,10 +2,13 @@ export default function Photography() {
   return (
     <div className="photography main_element">
       <div className="title">
-        <h2>Ephemeral Photography</h2>
+        <div className="hero">
+          <img src="/assets/imgs/ephemeralphoto.png" alt="" />
+        </div>
+        <h2>Ephemeral Photos</h2>
       </div>
+
       <div className="project_info">
-        <img src="/assets/imgs/ephemeralphoto.png" alt="" />
         <p>
           As a versatile photographer, I am driven by a deep passion for
           capturing compelling stories through live-action, candid moments, and

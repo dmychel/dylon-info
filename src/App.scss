@@ -25,6 +25,13 @@ body {
 
   margin: auto;
   width: 100vw;
+
+  div {
+    transition: all ease-in-out 0.25s;
+  }
+  img {
+    transition: all ease-in-out 0.25s;
+  }
 }
 
 header {

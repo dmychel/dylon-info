@@ -7,7 +7,7 @@ export default function Index() {
     <>
       <Profile />
       <Work />
-      {/* <Contact /> */}
+      <Contact />
     </>
   );
 }

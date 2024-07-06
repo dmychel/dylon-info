@@ -18,7 +18,7 @@ export default function Photography() {
             target="_blank"
             rel="noreferrer"
           >
-            Ephemeral Photos
+            EPHEMERAL PHOTOS
           </a>
         </p>
       </div>

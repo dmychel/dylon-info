@@ -24,7 +24,7 @@ body {
   );
 
   margin: auto;
-  max-width: 100vw;
+  width: 100vw;
 }
 
 header {
@@ -38,122 +38,37 @@ a {
 }
 
 .main_element {
-  height: 100vh;
-  max-width: 100%;
-  padding: 2rem;
+  min-height: 100vh;
+  max-height: 100vh;
+  width: 90%;
+  margin: auto;
+  font-size: 1.25rem;
 }
 
 .profile {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
+.developer,
+.photography,
 .crucial_clothing {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-
-  .title {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 5em;
-
-    .hero {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-
-      img {
-        width: 30%;
-        height: auto;
-      }
-    }
-  }
-
-  .project_info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 65%;
-    text-align: center;
-    gap: 2em;
-
-    ul {
-      display: flex;
-      gap: 2em;
-      li {
-        display: flex;
-        align-items: center;
-        gap: 1em;
-        list-style: none;
-
-        img {
-          max-width: 30px;
-        }
-      }
-    }
-  }
-}
-
-.photography {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-
-  .title {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 5em;
-
-    .hero {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-
-      img {
-        width: 60%;
-        height: auto;
-      }
-    }
-  }
-
-  .project_info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 65%;
-    text-align: center;
-    gap: 2em;
-  }
-}
-
-.developer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  padding: 2rem;
-  height: 100vh;
+  text-align: center;
 
   .hero {
-    width: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    width: 100%;
+
     img {
-      width: 60%;
+      width: 100%;
       height: auto;
     }
   }
@@ -161,18 +76,43 @@ a {
   .project_info {
     display: flex;
     flex-direction: column;
-    gap: 2em;
-    width: 65%;
-    text-align: center;
+    width: 90%;
+    gap: 1rem;
+
+    .link {
+      display: flex;
+      justify-content: center;
+      gap: 0.5rem;
+      width: 100%;
+    }
   }
+}
 
-  .link {
-    display: flex;
-    justify-content: center;
-    gap: 0.5rem;
+.contact {
+  margin: auto;
+  height: 100vh;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3em;
+  align-items: center;
+  text-align: center;
+}
 
-    a {
-      color: aquamarine;
+@media screen and (min-width: 915px) {
+  .main_element {
+    font-size: 1rem;
+    padding: 4rem;
+  }
+  .developer,
+  .photography,
+  .crucial_clothing {
+    .hero {
+      img {
+        width: 50%;
+        height: auto;
+      }
     }
   }
 }

@@ -10,16 +10,14 @@ export default function CrucialClothing() {
 
       <div className="project_info">
         <p>
-          Crucial Clothing started off as a passion project built to adress an
-          issue in the fashion industry. We believe consumer products served to
-          the community should be driven by the community. When entering{" "}
-          <a href="becrucial.club">becrucial.club</a> you will notice a section
-          to leave feedback and clothing items/styles you would like to see in
-          the future from Crucial Clothing. Community and Culture drives Crucial
-          Clothing.
+          While still in its infancy, Crucial Clothing is a passion project
+          built to adress an issue in the fashion industry. We believe consumer
+          products served to the community should be driven by the community. We
+          want our designs to come from a place of community and culture.
+          Community and Culture drives Crucial Clothing.
         </p>
 
-        <ul>
+        {/* <ul>
           <li>
             <img src="/assets/icons/world-wide-web.png" alt="" />{" "}
             <a href="becrucial.club">Website</a>
@@ -32,7 +30,7 @@ export default function CrucialClothing() {
             <img src="/assets/icons/mail.png" alt="" />{" "}
             <a href="becrucial.club">Email</a>
           </li>
-        </ul>
+        </ul> */}
       </div>
     </div>
   );

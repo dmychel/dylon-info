@@ -5,9 +5,9 @@ import Photography from "/src/components/UI/work/Photography";
 export default function Work() {
   return (
     <div className="work">
-      <CrucialClothing />
-      <Photography />
       <Developer />
+      <Photography />
+      <CrucialClothing />
     </div>
   );
 }

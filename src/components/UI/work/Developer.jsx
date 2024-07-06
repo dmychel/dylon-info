@@ -11,18 +11,21 @@ export default function Developer() {
         <p>
           I began my Web Development back in 2022. These past couple of years
           have been a wild ride, not exactly smooth sailing, but I wouldn&apos;t
-          change a thing. Teaching myself to code has been a rollercoaster of
-          highs and lows, but it&apos;s given me the confidence to tackle and
-          learn anything I need to. There were moments when I felt totally
-          demoralized, but look at this website right now—I built it from
-          scratch. You get internal value form creating something from nothing.
-        </p>
-        <div className="link">
-          <p>Take a look at my</p>
+          change a thing.
+          <br />
+          <br />
+          Teaching myself to code has been a rollercoaster of highs and lows,
+          but it&apos;s given me the confidence to tackle and learn anything I
+          need to. There were moments when I felt totally demoralized, but look
+          at this website right now—I built it from scratch. You get internal
+          value form creating something from nothing.
+          <br />
+          <br />
+          See my work here{" "}
           <a href="https://dyloncrowley.dev" target="_blank">
             PORTFOLIO
           </a>
-        </div>
+        </p>
       </div>
     </div>
   );

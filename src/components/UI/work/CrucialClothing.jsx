@@ -2,7 +2,7 @@ export default function CrucialClothing() {
   return (
     <div className="crucial_clothing main_element">
       <div className="hero">
-        <img src="/assets/imgs/crucial.png" alt="" />
+        <img src="/assets/imgs/white.png" alt="" />
       </div>
       <div className="title">
         <h2>Crucial Clothing</h2>
